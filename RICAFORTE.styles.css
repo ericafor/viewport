@@ -26,6 +26,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -235,12 +237,13 @@ section{
 
 
 
+
 /* ---------- MEDIUM SCREEN STYLES ---------- */
 /* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
 @media screen and (min-width: 768px) {
     header, footer{
-        background-color: var(--black);
-        color: var(--white);
+        background-color: var(--lime-green);
+        color: var(--dark-gray);
     }   
 
     main{
@@ -273,8 +276,8 @@ section{
 /* --------------- BEGIN LARGE SCREEN SIZES --------------- */
 @media screen and (min-width: 890px) {
     header, footer{
-        background-color: var(--lime-green);
-        color: var(--dark-gray);
+        background-color: var(--black);
+        color: var(--white);
     }
 
     h1, h2{
@@ -318,6 +321,8 @@ section{
     }
 }
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
+
+
 
 
 
