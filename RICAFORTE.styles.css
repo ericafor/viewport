@@ -157,9 +157,9 @@ footer .icon{
 
 /* ----- TEXT ----- */
 p, small{
-    font-size: 1em;
-    margin: 0.25em;
-    padding: 0.25em;
+    font-size: 16px;
+    margin: 4px;
+    padding: 4px;
     max-width: 75ch;
 }
 
@@ -197,7 +197,7 @@ section{
     }
 
     img{
-        margin: 0.75em 0.75em 0.75em 0;
+        margin: 12px 12px 12px 0;
         display: inline;
         float: left;
     }
@@ -213,9 +213,9 @@ section{
 
     main{
         display: grid;
-        grid-gap: 0.75em;
+        grid-gap: 12px;
         grid-template-columns: 1fr 1fr;
-        margin: 1em 0;
+        margin: 16px 0;
     }
 
     section{
@@ -325,8 +325,6 @@ section{
 
 
 
-
-
 /* ---------- EXTRA LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
 @media screen and (min-width: 1200px) { 
@@ -394,7 +392,7 @@ section{
     }
 
     #three p, #four p, #five p, #six p{
-        padding-top: 2em;
+        padding-top: 32px;
     } 
 }
 /* --------------- END EXTRA LARGE SCREEN SIZES --------------- */
