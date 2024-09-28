@@ -128,7 +128,7 @@ img{
 }
 
 footer .icon{
-    font-size: 1em;
+    font-size: 16px;
 }
 
 @-webkit-keyframes icon-animation {
@@ -171,7 +171,7 @@ main, header, footer{
 }
 
 header, footer{
-    padding: 1em;
+    padding: 16px;
 }
 
 main{
@@ -180,8 +180,8 @@ main{
 
 /* ----- CONTAINERS ----- */
 section{
-    margin: 1em 0;
-    padding: 1em;
+    margin: 16px 0;
+    padding: 16px;
 }
 
 /* ---------- EXTRA SMALL SCREEN STYLES ---------- */
@@ -246,12 +246,12 @@ section{
         color: var(--dark-gray);
     }   
 
-    main{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
     section{
         background-color: var(--light-gray);
+    }
+
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     #one{
@@ -280,13 +280,14 @@ section{
         color: var(--white);
     }
 
+    section{
+        background-color: var(--blue);
+    }
+
     h1, h2{
         display: inline-block;
     }
 
-    section{
-        background-color: var(--blue);
-    }
 
     main{
         grid-template-columns: 1fr 1fr 1fr 1fr;
