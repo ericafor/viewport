@@ -249,6 +249,7 @@ img{
 
     section{
         background-color: var(--light-gray);
+        color: var(--black);
     }
 
     #one{
@@ -310,7 +311,6 @@ img{
 
 
 
-/* ---------- ADJUSTING RESP;915ONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
 @media screen and (min-width:1300){   
 }
