@@ -1,11 +1,15 @@
-/* YOUR NAME GOES HERE */
+/* Elijah Ricaforte */
 
 /* --------------- ADD CSS RESET TO THE FILE HERE --------------- */
 
+/*  http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain) */
 
 
 /* ----- AUTOPREFIXER FOR VS CODE WAS USED FOR VENDOR PREFIXES ----- */
 /* ---------- VARIABLES ---------- */
+
 :root{
     --red: #760029;
     --pink: #9a0093;
@@ -21,13 +25,13 @@
     --dark-gray: #222;
 }
 
+
+
 /* ---------- GLOBAL STYLES ---------- */
 *{
     box-sizing: border-box;
     line-height: 1.35;
 }
-
-
 
 /* ----- CHECK FOR USER DARK MODE PREFERENCE ----- */
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
@@ -329,3 +333,7 @@ img{
         padding-top: 2em;
     } 
 /* --------------- END EXTRA LARGE SCREEN SIZES --------------- */
+
+
+
+
