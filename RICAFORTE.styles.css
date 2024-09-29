@@ -83,13 +83,12 @@ table {
 
 @media (prefers-color-scheme: dark) {
     body{
-      background-color: var (--dark-gray);
+      background-color: var(--dark-gray);
     }
   }
 
 
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
-
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 
 
@@ -323,7 +322,7 @@ img{
 
 
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-@media screen and (min-width:1300){   
+@media screen and (min-width:1300px){   
 }
      img{
         width: 300px;
