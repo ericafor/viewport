@@ -1,3 +1,4 @@
+/* Elijah Ricaforte */
 
 /* --------------- ADD CSS RESET TO THE FILE HERE --------------- */
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -25,6 +26,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -77,11 +80,22 @@ table {
 
 /* ----- CHECK FOR USER DARK MODE PREFERENCE ----- */
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
-@media (prefers-color-scheme:dark) {
+@media (prefers-color-scheme: dark) {
     body{
         background-color: var (--dark-gray);
     }
 }
+
+
+@media (prefers-color-scheme: dark) {
+    body{
+      background: #753;
+      color: #dcb;
+      outline: 5px dashed #000;
+    }
+  }
+
+
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
 
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
