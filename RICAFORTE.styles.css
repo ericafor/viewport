@@ -217,7 +217,7 @@ img{
     }
 
     section{
-        background-color: var(--yellow);
+        background-color: var(--blue);
         color: var(--dark-gray);
         margin: 0;
     }
@@ -264,8 +264,6 @@ img{
 
 
 
-    
-
     #seven{
         grid-column: 3/4;
         grid-row: 3/5;
@@ -288,7 +286,7 @@ img{
     }
 
     section{
-        background-color: var(--blue);
+        background-color: var(--yellow);
     }
 
     main{
